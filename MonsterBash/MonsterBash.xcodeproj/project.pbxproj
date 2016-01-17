@@ -12,11 +12,11 @@
 		D318FBC31B8FA52600B230EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D318FBC11B8FA52600B230EF /* Main.storyboard */; };
 		D318FBC51B8FA52600B230EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D318FBC41B8FA52600B230EF /* Assets.xcassets */; };
 		D318FBC81B8FA52600B230EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D318FBC61B8FA52600B230EF /* LaunchScreen.storyboard */; };
-		D318FBD31B8FA5D300B230EF /* Astro.png in Resources */ = {isa = PBXBuildFile; fileRef = D318FBCF1B8FA5D300B230EF /* Astro.png */; settings = {ASSET_TAGS = (); }; };
-		D318FBD41B8FA5D300B230EF /* Fluffy.png in Resources */ = {isa = PBXBuildFile; fileRef = D318FBD01B8FA5D300B230EF /* Fluffy.png */; settings = {ASSET_TAGS = (); }; };
-		D318FBD51B8FA5D300B230EF /* Munchie.png in Resources */ = {isa = PBXBuildFile; fileRef = D318FBD11B8FA5D300B230EF /* Munchie.png */; settings = {ASSET_TAGS = (); }; };
-		D318FBD61B8FA5D300B230EF /* Squido.png in Resources */ = {isa = PBXBuildFile; fileRef = D318FBD21B8FA5D300B230EF /* Squido.png */; settings = {ASSET_TAGS = (); }; };
-		D338EB7E1B90F78E00F42718 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338EB7D1B90F78E00F42718 /* SelectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D318FBD31B8FA5D300B230EF /* Astro.png in Resources */ = {isa = PBXBuildFile; fileRef = D318FBCF1B8FA5D300B230EF /* Astro.png */; };
+		D318FBD41B8FA5D300B230EF /* Fluffy.png in Resources */ = {isa = PBXBuildFile; fileRef = D318FBD01B8FA5D300B230EF /* Fluffy.png */; };
+		D318FBD51B8FA5D300B230EF /* Munchie.png in Resources */ = {isa = PBXBuildFile; fileRef = D318FBD11B8FA5D300B230EF /* Munchie.png */; };
+		D318FBD61B8FA5D300B230EF /* Squido.png in Resources */ = {isa = PBXBuildFile; fileRef = D318FBD21B8FA5D300B230EF /* Squido.png */; };
+		D338EB7E1B90F78E00F42718 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338EB7D1B90F78E00F42718 /* SelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +110,7 @@
 				TargetAttributes = {
 					D318FBB91B8FA52600B230EF = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = L952KSTMA9;
 					};
 				};
 			};
@@ -268,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MonsterBash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.MonsterBash;
@@ -279,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MonsterBash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.MonsterBash;
